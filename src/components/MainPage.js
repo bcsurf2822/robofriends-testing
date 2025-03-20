@@ -6,6 +6,7 @@ import Scroll from './Scroll';
 import ErrorBoundry from './ErrorBoundry';
 import Header from './Header';
 
+// Try to make tests a s simple as possible which is why we moved everhthing to here
 export class MainPage extends Component {
   componentDidMount() {
     this.props.onRequestRobots();
